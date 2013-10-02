@@ -1,4 +1,4 @@
-mattahorton.github.io
+mattahorton
 =====================
 
-User Page for Github user mattahorton
+engineer, musician, explorer
