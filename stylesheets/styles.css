@@ -101,6 +101,14 @@ header {
   position:fixed;
 }
 
+header p {
+    text-align:center;
+}
+
+header h1{
+    text-align: center;
+}
+
 header ul {
   list-style:none;
   height:40px;
