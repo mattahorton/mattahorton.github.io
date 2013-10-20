@@ -1,0 +1,49 @@
+.box {
+    text-align:center;
+    
+    border: 2px;
+    box-shadow: 0 0 5px #888 inset;
+    margin: 0 auto;
+    
+    font-family: Cardo, serif;
+    font-weight:400;
+    font-style: italic;
+    font-size: 10vw;
+    line-height: 150%;
+    color: #FFF;
+    text-shadow: 0 0 3px #black;
+    display: block;
+    padding: 9vh 0;
+}
+
+h1#fittext1 {
+
+    
+}
+    
+
+span {
+    font-style:normal;
+}
+p {
+    padding: 50vh 50vw;
+    background: white;
+    margin-bottom:0px;
+    margin-top: 0px;
+}
+
+body {
+    background: -webkit-radial-gradient(center center, farthest-corner, rgba(255, 255, 255, 0.15) 0%, 
+            rgba(248, 248, 247, 0.3) 100%), url('../img/matt.JPG') no-repeat;
+    background: -moz-radial-gradient(center center, farthest-corner, rgba(255, 255, 255, 0.15) 0%, 
+            rgba(248, 248, 247, 0.3) 100%), url('../img/matt.JPG') no-repeat;
+    background: -o-radial-gradient(center center, farthest-corner, rgba(255, 255, 255, 0.15) 0%, 
+            rgba(248, 248, 247, 0.3) 100%), url('../img/matt.JPG') no-repeat;
+    background: -ms-radial-gradient(center center, farthest-corner, rgba(255, 255, 255, 0.15) 0%, 
+            rgba(248, 248, 247, 0.3) 100%), url('../img/matt.JPG') no-repeat;
+    background: radial-gradient(center center, farthest-corner, rgba(255, 255, 255, 0.15) 0%, 
+            rgba(248, 248, 247, 0.3) 100%), url('../img/matt.JPG') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+}

@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="chrome=1">
+        <title>Mattahorton.github.io</title>
+
+        <link rel="stylesheet" href="stylesheets/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Cardo:400italic,400' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="stylesheets/test.css">
+<!--        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">-->
+    </head>
+    <body>
+        <div class="box">
+            <h1 id="fittext1">
+            <span>Matthew</span> <br>
+            Horton </h1>
+        </div>
+        
+        <p>fj</p>
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<!--
+        <script src="javascripts/jquery.fittext.js"></script>
+        <script>
+            jQuery(document).ready(function(){
+                jQuery("#fittext1").fitText(2.2,{ minFontSize: '60vw', maxFontSize: '100vw' });
+            });
+        </script>
+-->
+        <script>
+            causeRepaintsOn = $("fittext1");
+
+            $(window).resize(function() {
+                causeRepaintsOn.css("z-index", 1);
+            });
+        </script>
+        
+    </body>
+</html>
