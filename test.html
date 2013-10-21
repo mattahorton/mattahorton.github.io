@@ -20,21 +20,10 @@
         <p>fj</p>
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<!--
-        <script src="javascripts/jquery.fittext.js"></script>
-        <script>
-            jQuery(document).ready(function(){
-                jQuery("#fittext1").fitText(2.2,{ minFontSize: '60vw', maxFontSize: '100vw' });
-            });
-        </script>
--->
-        <script>
-            causeRepaintsOn = $("fittext1");
-
-            $(window).resize(function() {
-                causeRepaintsOn.css("z-index", 1);
-            });
-        </script>
+ 	    <script src="jquery.fittext.js"></script>
+	    <script type="text/javascript">
+		  $("#fittext1").fitText(1);
+	    </script>
         
     </body>
 </html>
